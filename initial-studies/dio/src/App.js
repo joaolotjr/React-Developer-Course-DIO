@@ -8,6 +8,7 @@ function App() {
       <Button title= "Fechar"/>
       <Button title= "Abrir"/>
       <Button title= "Salvar"/>
+      <Button title= "Voltar"/>
 
       
     </div>
