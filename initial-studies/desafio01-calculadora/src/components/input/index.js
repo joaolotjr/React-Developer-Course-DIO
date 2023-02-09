@@ -4,9 +4,7 @@ import {InputContainer} from './styles'
 const Input = () => {
     return (
       <InputContainer>
-      
-      olá
-        
+      <input disabled />
       </InputContainer>
     );
   }
