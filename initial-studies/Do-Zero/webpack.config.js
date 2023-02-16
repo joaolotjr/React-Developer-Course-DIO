@@ -23,14 +23,14 @@ module.exports = {
                 use: ["file-loader"]
             },
 
-        ]
+        ],
     },
-    resolver: {
+    resolve: {
         extensions: [".js", ".jsx"],
     },
     plugin: [
         new HtmlWebPackPlugin({
-            template: "./public/index.html"
+            template: "./public/index.html",
         }),
-    ]
-}
+    ],
+};
